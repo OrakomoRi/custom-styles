@@ -15,4 +15,4 @@
 		O = document.createElement("style");
 	O.innerHTML = x;
 	document.body.appendChild(O);
-});
+})();
