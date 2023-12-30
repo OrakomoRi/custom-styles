@@ -1,2 +1,3 @@
-# kinda-sus
-Huh?
+# Custom styles
+
+Some websites are ugly or have a common look. It would be better if I could use custom styles...
