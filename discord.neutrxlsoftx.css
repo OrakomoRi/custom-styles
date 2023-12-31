@@ -80,7 +80,8 @@ body,
 	background: transparent;
 }
 
-.bg__12180 {
+body .bg__12180,
+#app-mount .bg__12180 {
 	background-image: var(--background-image);
 	background-color: transparent;
 	background-attachment: var(--background-attachment, fixed);
