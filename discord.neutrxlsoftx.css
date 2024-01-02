@@ -4192,3 +4192,6 @@ body #ChannelsPreview::before {
 	border-color: rgb(var(--accent));
 	box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), 0.25);
 }
+#app-mount .container__4bde3 {
+	background: var(--background-image) center / cover no-repeat;
+}
