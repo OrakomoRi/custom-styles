@@ -4185,6 +4185,10 @@ body #ChannelsPreview::before {
 	background: transparent;
 }
 
-.root_ba16f0 {
+#app-mount .root_ba16f0 {
 	background: transparent;
+}
+#app-mount .medium__0fb5d .input__74754:focus-within {
+	border-color: rgb(var(--accent));
+	box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), 0.25);
 }
