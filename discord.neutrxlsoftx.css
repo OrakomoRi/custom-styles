@@ -881,7 +881,7 @@ html.theme-light .container_ca50b9 {
 	padding-top: 18px;
 }
 #app-mount .wrapper__9c483 {
-	padding: 0 18px 0 42px;
+	padding: 0 18px 0 20px;
 	height: 32px;
 }
 #app-mount .wrapper__9c483 .arrow_cb03b8 {
@@ -1852,7 +1852,6 @@ body .footer__06f4b,
 	right: 20%;
 	top: 80%;
 }
-
 #app-mount .menu_dc52c6:not(#account.menu_dc52c6) {
 	background: var(--bg-primary);
 	border: 1px solid var(--border);
