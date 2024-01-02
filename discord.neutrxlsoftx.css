@@ -2627,10 +2627,10 @@ body .footer__06f4b,
 #app-mount .addFriendInputWrapper__4bf8e:hover {
 	border-color: rgba(255, 255, 255, 0.05);
 }
-#app-mount .addFriendInputWrapper__4bf8e:focus-within {
+/* #app-mount .addFriendInputWrapper__4bf8e:focus-within {
 	border-color: rgb(var(--accent));
 	box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
+} */
 
 #app-mount .nowPlayingColumn_f5023f {
 	background: var(--bg-primary);
