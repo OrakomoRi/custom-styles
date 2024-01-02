@@ -2462,7 +2462,7 @@ body .wrapper_edb6e0 foreignObject[mask*=mobile]::after,
 
 #app-mount .messagesPopoutWrap_b3b384,
 #app-mount .recentMentionsPopout__826a9 {
-	background: var(--bg-primary);
+	background: transparent;
 	box-shadow: none;
 	border: 1px solid var(--border);
 	-webkit-backdrop-filter: blur(var(--blur));
@@ -3139,7 +3139,7 @@ body .wrapper_edb6e0 foreignObject[mask*=mobile]::after,
 	box-shadow: none !important;
 	border-radius: 0;
 	border: 1px solid var(--border);
-	background: var(--bg-primary);
+	background: transparent;
 }
 #app-mount .footer__89240,
 #app-mount .footer-31IekZ {
@@ -4151,4 +4151,40 @@ body #ChannelsPreview::before {
 	border-radius: var(--server-roundness, 50%);
 	-webkit-mask: none !important;
 			mask: none !important;
+}
+
+
+#app-mount .overlayBackground__86b78 {
+	background: transparent;
+}
+#app-mount .badgeList_ef4131 {
+	background: transparent;
+}
+#app-mount .userProfileInner__8065b {
+	background: transparent;
+}
+#app-mount .userPanelOuter__880e5 {
+	background: var(--bg-primary);
+}
+
+#app-mount .container__2c498 {
+	background: transparent;
+}
+#app-mount .expandedInboxHeader__395ef {
+	margin-bottom: 8px;
+}
+#app-mount .row_fd1939 {
+	background: transparent;
+	transition: background .2s;
+}
+#app-mount .row_fd1939:hover {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+#app-mount .footer_a3029c {
+	background: transparent;
+}
+
+.root_ba16f0 {
+	background: transparent;
 }
