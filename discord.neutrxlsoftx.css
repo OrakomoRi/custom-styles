@@ -2095,7 +2095,7 @@ body .wrapper_edb6e0 foreignObject[mask*=mobile]::after,
 	}
 }
 #app-mount .container__8261a {
-	background: var(--bg-primary);
+	background: transparent;
 	border-radius: 6px;
 	-webkit-backdrop-filter: blur(var(--blur));
 					backdrop-filter: blur(var(--blur));
