@@ -4195,3 +4195,6 @@ body #ChannelsPreview::before {
 #app-mount .container__4bde3 {
 	background: var(--background-image) center / cover no-repeat;
 }
+#app-mount .emptyCard_f82dde {
+	background: transparent;
+}
