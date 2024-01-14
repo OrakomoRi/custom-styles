@@ -1853,8 +1853,8 @@ body .footer__06f4b,
 }
 body .wrapper_edb6e0 foreignObject[mask*=mobile]::after,
 #app-mount .wrapper_edb6e0 foreignObject[mask*=mobile]::after {
-	right: 20%;
-	top: 80%;
+	right: 20% !important;
+	top: 80% !important;
 }
 #app-mount .menu_dc52c6:not(#account.menu_dc52c6) {
 	background: var(--bg-primary);
