@@ -1,0 +1,60 @@
+/* Styles (change only if you are confident in your understanding) */
+
+div.z-0.w-full.h-full::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: var(--background-color) var(--background-image) center / cover no-repeat fixed;
+	filter: blur(var(--background-blur, 0px));
+}
+
+nav.flex-col {
+	background-color: var(--bg-primary);
+	border-right: 1px solid var(--bg-tertiary);
+}
+
+nav.flex-col div.sticky.bg-black {
+	background: transparent;
+}
+
+nav.flex-col h3.dark\:bg-black {
+	background-color: transparent;
+}
+
+div.bg-token-surface-secondary {
+	background-color: var(--bg-tertiary);
+}
+
+div.from-token-surface-secondary {
+	--tw-gradient-from: transparent;
+}
+
+div[role="presentation"] {
+	background-color: var(--bg-primary);
+}
+
+.dark div.dark\:bg-gray-800 {
+	background-color: var(--bg-secondary);
+}
+
+div.from-black {
+	--tw-gradient-from: transparent;
+}
+
+div[role="presentation"] button.btn.btn-neutral.dark\:text-gray-300 {
+	background-color: var(--bg-secondary);
+	transition: all var(--transition);
+}
+
+div[role="presentation"] button.btn.btn-neutral.dark\:text-gray-300:hover {
+	background-color: var(--bg-tertiary);
+}
+
+div[role="presentation"]
+	button.btn.btn-neutral.dark\:text-gray-300:hover
+	div.dark\:from-gray-700 {
+	display: none;
+}
