@@ -24,11 +24,19 @@ nav.flex-col h3.dark\:bg-black {
 	background-color: transparent;
 }
 
-div.bg-token-surface-secondary {
+nav.flex-col div.relative.rounded-lg {
+	transition: background-color var(--transition);
+}
+
+nav.flex-col div.relative.rounded-lg:hover {
+	background-color: var(--bg-secondary);
+}
+
+nav.flex-col div.bg-token-surface-secondary {
 	background-color: var(--bg-tertiary);
 }
 
-div.from-token-surface-secondary {
+nav.flex-col div.from-token-surface-secondary {
 	--tw-gradient-from: transparent;
 }
 
@@ -36,11 +44,11 @@ div[role="presentation"] {
 	background-color: var(--bg-primary);
 }
 
-.dark div.dark\:bg-gray-800 {
+div[role="presentation"] div.dark\:bg-gray-800 {
 	background-color: var(--bg-secondary);
 }
 
-div.from-black {
+div[role="presentation"] div.from-black {
 	--tw-gradient-from: transparent;
 }
 
@@ -53,8 +61,6 @@ div[role="presentation"] button.btn.btn-neutral.dark\:text-gray-300:hover {
 	background-color: var(--bg-tertiary);
 }
 
-div[role="presentation"]
-	button.btn.btn-neutral.dark\:text-gray-300:hover
-	div.dark\:from-gray-700 {
+div[role="presentation"] button.btn.btn-neutral.dark\:text-gray-300:hover div.dark\:from-gray-700 {
 	display: none;
 }
