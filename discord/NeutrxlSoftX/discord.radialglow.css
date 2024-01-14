@@ -1,5 +1,8 @@
 @import url('https://raw.githubusercontent.com/OrakomoRi/custom-styles/main/discord/NeutrxlSoftX/discord.radialstatus.css');
 
+/* Copyright Gibbu <3 */
+/* Not fully identical, may contain changes */
+
 :root {
 	--rs-small-spacing: 2px; /* Spacing between profile image and outer ring on small icons (e.g. member list) | Default: 2px */
 	--rs-medium-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout) | Default: 4px */
