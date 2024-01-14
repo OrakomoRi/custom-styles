@@ -32,6 +32,10 @@ nav.flex-col div.relative.rounded-lg:hover {
 	background-color: var(--bg-secondary);
 }
 
+nav.flex-col div.relative.rounded-lg div.absolute.to-transparent {
+	background: transparent;
+}
+
 nav.flex-col div.bg-token-surface-secondary {
 	background-color: var(--bg-tertiary);
 }
