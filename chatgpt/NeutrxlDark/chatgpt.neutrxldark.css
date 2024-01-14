@@ -28,7 +28,7 @@ nav.flex-col div.relative.rounded-lg {
 	transition: background-color var(--transition);
 }
 
-nav.flex-col div.relative.rounded-lg:hover {
+nav.flex-col div.relative.rounded-lg:not(.bg-token-surface-secondary):hover {
 	background-color: var(--bg-secondary);
 }
 
