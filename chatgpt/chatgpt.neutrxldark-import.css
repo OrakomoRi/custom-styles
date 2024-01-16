@@ -3,32 +3,32 @@
 
 
 :root {
-	--background-image: url("https://i.imgur.com/czhoqaH.jpg");		/* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-	--background-color: rgb(30, 30, 30);							/* Background color | Will be used if background image isn't set | Default: rgb(30, 30, 30) */
-	--opacity: 0.5;													/* Opacity of overall app. | Default: .5 */
-	--accent: 150, 150, 150;										/* Colour used around the app. | Values are in R,G,B format. | Default: 150, 150, 150 */
-	--background-blur: 2px;											/* Blur intensity of --background-image | MAY BE IN px, em, etc. | Default 2px */
-	--transition: .15s ease;										/* Transition (for animations) | Default: .15s ease */
+	--background-image: url("https://i.imgur.com/czhoqaH.jpg"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+	--background-color: rgb(30, 30, 30); /* Background color | Will be used if background image isn't set | Default: rgb(30, 30, 30) */
+	--opacity: 0.5; /* Opacity of overall app. | Default: .5 */
+	--accent: 150, 150, 150; /* Colour used around the app. | Values are in R,G,B format. | Default: 150, 150, 150 */
+	--background-blur: 2px; /* Blur intensity of --background-image | MAY BE IN px, em, etc. | Default 2px */
+	--transition: .15s ease; /* Transition (for animations) | Default: .15s ease */
 
-	--hue: 0deg;													/* Hue (used for backgrounds) */
-	--saturation: 0%;												/* Saturation (used for backgrounds) */
-	--lightness: 10%;												/* Lightness (used for backgrounds) */
+	--hue: 0deg; /* Hue (used for backgrounds) */
+	--saturation: 0%; /* Saturation (used for backgrounds) */
+	--lightness: 10%; /* Lightness (used for backgrounds) */
 
-	--bg-primary: hsl(												/* Primary background color (dark) */
+	--bg-primary: hsl( /* Primary background color (dark) */
 		var(--hue)
 		var(--saturation)
 		var(--lightness)
 		/
 		var(--opacity)
 	);
-	--bg-secondary: hsl(											/* Primary background color (middling) */
+	--bg-secondary: hsl( /* Secondary background color (middling) */
 		var(--hue)
 		var(--saturation)
 		calc(var(--lightness) * 1.2)
 		/
 		var(--opacity)
 	);
-	--bg-tertiary: hsl(												/* Primary background color (light) */
+	--bg-tertiary: hsl( /* Tertiary background color (light) */
 		var(--hue)
 		var(--saturation)
 		calc(var(--lightness) * 3)
