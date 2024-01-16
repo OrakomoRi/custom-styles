@@ -6,7 +6,7 @@
 	--background-image: url("https://i.imgur.com/czhoqaH.jpg"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
 	--background-color: rgb(30, 30, 30); /* Background color | Will be used if background image isn't set | Default: rgb(30, 30, 30) */
 	--opacity: 0.5; /* Opacity of overall app. | Default: .5 */
-	--accent: 150, 150, 150; /* Colour used around the app. | Values are in R,G,B format. | Default: 150, 150, 150 */
+	--accent: 150, 150, 150; /* Color used around the app. | Values are in R,G,B format. | Default: 150, 150, 150 */
 	--background-blur: 2px; /* Blur intensity of --background-image | MAY BE IN px, em, etc. | Default 2px */
 	--transition: .15s ease; /* Transition (for animations) | Default: .15s ease */
 
@@ -36,3 +36,5 @@
 		var(--opacity)
 	);
 }
+
+/* Any custom CSS below here */

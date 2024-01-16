@@ -7,31 +7,31 @@
 
 :root {
   --background-image: url('https://i.imgur.com/czhoqaH.jpg'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --background-blur: 0; /* Blur intensity of --background-image */
-  --opacity: 0.8; /* Opacity of overall app. | Default: .85 */
-  --accent: 150,150,150; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
+  --background-color: rgb(30, 30, 30); /* Background color | Will be used if background image isn't set | Default: rgb(30, 30, 30) */
+  --background-blur: .1em; /* Blur intensity of --background-image | Default: .1em */
+  --opacity: 0.75; /* Opacity of overall app. | Default: .75 */
+  --accent: 150, 150, 150; /* Color used around the app. | Values are in R,G,B format. | Default: 150, 150, 150 */
   --glow-intensity: 1; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
-  --font: Inter; /* Custom font | Default: 'Inter' */
-  --channels-width: 15em; /* Width of the channels list. | Default: 300px */
+  --channels-width: 15em; /* Width of the channels list. | Default: 15em */
   --guilds-width: 5em; /* Width of the server list. | Default: 105px */
   --members-width: 15em; /* Width of the members list. | Default: 280px */
   --server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
   --chat-avatar-size: 32px; /* Size of the chat avatars. | Default: 32px */
-  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 2px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 2px; /* Gap between avatar and status for User profiles | MUST end in px */
-  --rs-small-width: .05em; /* Ring width | Default: 1.5px */
-  --rs-medium-width: .1em;
-  --rs-large-width: .15em;
-  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
-  --rs-online-color: #43b581; /* Colour for online status */
-  --rs-idle-color: #faa61a; /* Colour for idle status */
-  --rs-dnd-color: #f04747; /* Colour for dnd status */
-  --rs-offline-color: #636b75; /* Colour for offline status */
-  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone */
-  --rs-streaming-color: #643da7; /* Colour for streaming status */
-  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px | Default: 2px */
+  --rs-medium-spacing: 2px; /* Gap between avatar and status for User popout | MUST end in px | Default: 2px */
+  --rs-large-spacing: 2px; /* Gap between avatar and status for User profiles | MUST end in px | Default: 2px */
+  --rs-small-width: .05em; /* Ring width | Default: .05em */
+  --rs-medium-width: .1em; /* Medium ring width | Default: .1em */
+  --rs-large-width: .15em; /* Large ring width | Default: .15em */
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square | Default: 50% */
+  --rs-online-color: #43b581; /* Color for online status | Default: #43b581 */
+  --rs-idle-color: #faa61a; /* Color for idle status | Default: #faa61a */
+  --rs-dnd-color: #f04747; /* Color for dnd status | Deafault: #636b75 */
+  --rs-offline-color: #636b75; /* Colour for offline status | Default: #636b75 */
+  --rs-phone-color: var(--rs-online-color); /* Color of the ring and phone icon when a user is on their phone | Default: var(--rs-online-color) */
+  --rs-streaming-color: #643da7; /* Color for streaming status | Default: #643da7 */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden | Default: block */
+  --rs-invisible-color: #747f8d; /* Color for invisible status - Note: this will only show for your own invisibility | Default: #747f8d */
 }
 
 /* Any custom CSS below here */
