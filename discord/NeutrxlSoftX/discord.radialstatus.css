@@ -14,7 +14,7 @@
 }
 #app-mount .wrapper_edb6e0 foreignObject {
 	-webkit-mask: none;
-					mask: none;
+	mask: none;
 }
 #app-mount .wrapper_edb6e0 .dots_a97068 circle {
 	cy: -8 !important;
@@ -63,7 +63,7 @@
 	width: 100%;
 	height: 100%;
 	-webkit-mask: none;
-					mask: none;
+	mask: none;
 	display: block;
 	rx: var(--rs-avatar-shape);
 	ry: var(--rs-avatar-shape);
@@ -127,7 +127,7 @@
 }
 #app-mount .wrapper_edb6e0[style*="80px"] img {
 	-webkit-clip-path: inset(calc(var(--rs-medium-spacing) + 1px) calc(var(--rs-medium-spacing) + 1px) round var(--rs-avatar-shape));
-					clip-path: inset(calc(var(--rs-medium-spacing) + 1px) calc(var(--rs-medium-spacing) + 1px) round var(--rs-avatar-shape));
+	clip-path: inset(calc(var(--rs-medium-spacing) + 1px) calc(var(--rs-medium-spacing) + 1px) round var(--rs-avatar-shape));
 }
 #app-mount .wrapper_edb6e0[style*="120px"] svg.cursorDefault_e4f616 rect {
 	x: -70;
@@ -141,18 +141,18 @@
 }
 #app-mount .wrapper_edb6e0[style*="120px"] img {
 	-webkit-clip-path: inset(calc(var(--rs-large-spacing) + 1px) calc(var(--rs-large-spacing) + 1px) round var(--rs-avatar-shape));
-					clip-path: inset(calc(var(--rs-large-spacing) + 1px) calc(var(--rs-large-spacing) + 1px) round var(--rs-avatar-shape));
+	clip-path: inset(calc(var(--rs-large-spacing) + 1px) calc(var(--rs-large-spacing) + 1px) round var(--rs-avatar-shape));
 }
 #app-mount .wrapper_edb6e0:not([style*="80px;"], [style*="120px;"], [style*="16px"]) > svg > foreignObject:not(:only-child) img {
 	-webkit-clip-path: inset(calc(var(--rs-small-spacing) + 1px) calc(var(--rs-small-spacing) + 1px) round var(--rs-avatar-shape));
-					clip-path: inset(calc(var(--rs-small-spacing) + 1px) calc(var(--rs-small-spacing) + 1px) round var(--rs-avatar-shape));
+	clip-path: inset(calc(var(--rs-small-spacing) + 1px) calc(var(--rs-small-spacing) + 1px) round var(--rs-avatar-shape));
 }
 #app-mount .wrapper_edb6e0[style="width: 16px; height: 16px;"] rect {
 	display: none;
 }
 #app-mount .wrapper_edb6e0[style="width: 16px; height: 16px;"] img {
 	-webkit-clip-path: none;
-					clip-path: none;
+	clip-path: none;
 }
 #app-mount .wrapper_edb6e0 foreignObject[mask*=mobile] {
 	width: calc(100% + 4px);
@@ -180,7 +180,7 @@
 	content: "";
 	display: var(--rs-phone-visible, block);
 	-webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center no-repeat;
-					mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center no-repeat;
+	mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center no-repeat;
 	position: absolute;
 	width: 10px;
 	height: 14px;
@@ -213,7 +213,7 @@
 }
 #app-mount .avatarHint__8e5b9 foreignObject {
 	-webkit-mask: none;
-					mask: none;
+	mask: none;
 }
 #app-mount .avatarHintInner__3d1c9 {
 	border-radius: var(--rs-avatar-shape) !important;
@@ -227,15 +227,15 @@
 }
 #app-mount .memberOffline-2lN7gt img {
 	-webkit-clip-path: none !important;
-					clip-path: none !important;
+	clip-path: none !important;
 }
 #app-mount .offline_c1fd80 img {
 	-webkit-clip-path: none !important;
-					clip-path: none !important;
+	clip-path: none !important;
 }
 #app-mount .avatarWrapperNonUserBot_d27212 .wrapper_edb6e0 img {
 	-webkit-clip-path: none !important;
-					clip-path: none !important;
+	clip-path: none !important;
 }
 #app-mount .userInfo__18240 .wrapper_edb6e0 {
 	margin-top: 1px;

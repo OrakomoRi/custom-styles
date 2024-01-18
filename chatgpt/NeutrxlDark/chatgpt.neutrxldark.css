@@ -1,5 +1,3 @@
-/* Styles (change only if you are confident in your understanding) */
-
 div.z-0.w-full.h-full::before {
 	content: "";
 	position: absolute;
