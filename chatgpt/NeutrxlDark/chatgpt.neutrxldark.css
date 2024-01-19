@@ -39,6 +39,12 @@ nav.flex-col div.bg-token-surface-secondary {
 	background-color: var(--bg-tertiary);
 }
 
+nav.flex-col div.bg-token-surface-secondary {
+    padding-right: 4em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 nav.flex-col div.from-token-surface-secondary {
 	--tw-gradient-from: transparent;
 }
