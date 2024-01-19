@@ -1645,11 +1645,19 @@ body .footer__06f4b,
 	order: 0;
 }
 #app-mount .resizeHandle_f1a098 {
-	background: var(--bg-primary);
+	background: var(--bg-secondary);
 }
 #app-mount .container_def45c {
 	background: transparent;
 	border-radius: 0;
+}
+#app-mount .threadCreatorName_a692b0:hover {
+	cursor: default;
+	text-decoration: none;
+}
+#app-mount .threadCreatorName_a692b0:hover span {
+	cursor: pointer;
+	text-decoration: underline;
 }
 #app-mount .chat_f9a759 {
 	background: var(--bg-secondary);
