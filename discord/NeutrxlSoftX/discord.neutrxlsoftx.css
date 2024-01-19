@@ -1684,7 +1684,7 @@ body .footer__06f4b,
 #app-mount .chatContent__5dca8 {
 	border-radius: 0;
 	margin: 0;
-	background: var(--bg-primary);
+	background: var(--bg-secondary);
 	border-left: 1px solid var(--border);
 }
 #app-mount .chat__4eed1::before {
