@@ -1648,9 +1648,10 @@ body .footer__06f4b,
 	background: var(--bg-primary);
 }
 #app-mount .container_def45c {
+	background: transparent;
 	border-radius: 0;
 }
-#app-mount .chat_f8f70f {
+#app-mount .chat_f9a759 {
 	background: var(--bg-secondary);
 }
 #app-mount .sansAttachButtonCreateThread_cb0040 {
