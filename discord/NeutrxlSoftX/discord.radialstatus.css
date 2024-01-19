@@ -1,9 +1,6 @@
 /* Copyright Gibbu <3 */
 /* Not fully identical, may contain changes */
-
-:root {
-	--rs-version: "2.0.9";
-}
+/* Based on RadialStatus v2.0.9 */
 
 #app-mount .wrapper_edb6e0 {
 	border-radius: var(--rs-avatar-shape);
@@ -240,8 +237,4 @@
 #app-mount .userInfo__18240 .wrapper_edb6e0 {
 	margin-top: 1px;
 	margin-left: 1px;
-}
-#app-mount .info__755e1 .line__75801:last-child:after {
-	content: "RadialStatus " var(--rs-version);
-	display: block;
 }

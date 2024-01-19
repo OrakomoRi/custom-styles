@@ -1,5 +1,6 @@
 /* Copyright Gibbu <3 */
 /* Not fully identical, may contain changes */
+/* Based on SoftX v1.2.0 */
 
 .theme-light {
 	--user-popout-bg: hsl(0 0% 100% / 0.25);
@@ -12,7 +13,6 @@
 }
 
 :root {
-	--softx-version: "1.2.0";
 	--hue: 0deg;
 	--saturation: 0%;
 	--lightness: 10%;
@@ -109,13 +109,6 @@ html.theme-light .container_ca50b9 {
 	transform: scale(1) !important;
 	opacity: 1 !important;
 }
-
-.layer__2efaa:not(.baseLayer__8fda3) .info__755e1 > span:first-child::before {
-	display: block;
-	content: "SoftX v" var(--softx-version);
-	text-transform: none;
-}
-
 #app-mount .container__11d72 {
 	background: var(--bg-primary);
 	height: var(--toolbar-height);
