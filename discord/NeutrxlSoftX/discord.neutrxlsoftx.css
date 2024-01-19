@@ -419,7 +419,7 @@ html.theme-light .container_ca50b9 {
 	box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), 0.25);
 }
 #app-mount .input_d266e7.inputInner__34c88 {
-	padding-left: 25px !important;
+	padding-left: 28px;
 }
 #app-mount .multiInputLast-35zVz0::before {
 	content: none;
