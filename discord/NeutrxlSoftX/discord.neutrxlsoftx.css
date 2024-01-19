@@ -4232,3 +4232,20 @@ body #ChannelsPreview::before {
 #app-mount .input_d266e7.inputInner__34c88 {
 	padding-left: 28px !important;
 }
+#app-mount .settingCard__00567 {
+    background: var(--bg-secondary);
+}
+#app-mount .settingCard__00567 .cardFolder__34393 {
+	background: transparent;
+}
+#app-mount .settingCard__00567 .content__23cab {
+	border: none;
+}
+#app-mount .popout_a6e77f {
+	border: 1px solid var(--border);
+    background: var(--bg-secondary);
+	backdrop-filter: blur(2px);
+}
+#app-mount .selectedIcon__4b0ba circle[fill="white"] {
+	fill: none;
+}
