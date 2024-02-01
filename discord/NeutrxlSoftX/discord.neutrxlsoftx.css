@@ -4251,7 +4251,7 @@ body #ChannelsPreview::before {
 	fill: none;
 }
 
-#app-mount .selectedIcon__4b0ba .avatarDecoration__14b3c {
+#app-mount .avatarDecoration__14b3c {
 	left: calc(var(--custom-message-margin-horizontal) - (calc(var(--chat-avatar-size) * 1.4) - var(--chat-avatar-size)) / 2 - 4px);
 	margin-top: calc(0px - var(--custom-message-spacing-vertical-container-cozy) - (calc(var(--chat-avatar-size) * 1.4) - var(--chat-avatar-size)) / 2);
 	width: calc(var(--chat-avatar-size) * 1.5);
