@@ -1254,6 +1254,7 @@ body .cozy_f5c119.mentioned__58017 .messageContent__21e69:not(:empty):not(.repli
 	box-shadow: inset 2px 0 0 var(--info-warning-foreground);
 	border-radius: 0 6px 6px 0;
 	padding: 0 .5em;
+	width: 100%;
 }
 body .cozy_f5c119[data-is-author-self=true] .messageContent__21e69:not(:empty):not(.repliedTextContent__75526):not(.threadMessageAccessoryContent__3d9fc),
 #app-mount .cozy_f5c119[data-is-author-self=true] .messageContent__21e69:not(:empty):not(.repliedTextContent__75526):not(.threadMessageAccessoryContent__3d9fc) {
@@ -3430,8 +3431,8 @@ body .wrapper_edb6e0 foreignObject[mask*=mobile]::after,
 	z-index: -1;
 }
 #app-mount .userPopoutOuter_d739b2[style*="--profile-gradient-primary-color"] .input_d266e7:focus-within {
-	border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
-	box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) var(--profile-gradient-primary-color, rgb(var(--accent), 0.25)) !important;
+	border-color: rgb(var(--accent)) !important;
+	box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), 0.25) !important;
 }
 #app-mount .userPopoutOuter_d739b2.theme-light {
 	--profile-body-divider-color: var(--border) !important;
@@ -4248,4 +4249,11 @@ body #ChannelsPreview::before {
 }
 #app-mount .selectedIcon__4b0ba circle[fill="white"] {
 	fill: none;
+}
+
+#app-mount .selectedIcon__4b0ba .avatarDecoration__14b3c {
+	left: calc(var(--custom-message-margin-horizontal) - (calc(var(--chat-avatar-size) * 1.4) - var(--chat-avatar-size)) / 2 - 4px);
+	margin-top: calc(0px - var(--custom-message-spacing-vertical-container-cozy) - (calc(var(--chat-avatar-size) * 1.4) - var(--chat-avatar-size)) / 2);
+	width: calc(var(--chat-avatar-size) * 1.5);
+    height: calc(var(--chat-avatar-size) * 1.5);
 }
